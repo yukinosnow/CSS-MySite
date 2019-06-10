@@ -59,6 +59,8 @@ a:hover {
   padding-top: 100px;
 }
 
+#profile {}
+
 .middle-container {
   margin: 100px auto auto;
 }
@@ -76,9 +78,11 @@ a:hover {
 .prog {
   text-decoration: underline;
 }
-.other-skill{
-  padding: 0 30%;
+
+.other-skill {
+  width: 50%;
   text-align: left;
+  margin: auto;
 }
 
 .intro {
@@ -91,12 +95,14 @@ a:hover {
   margin: 100px auto 100px auto;
   text-align: left;
 }
+
 .Experience-row {
   width: 60%;
   margin: 100px auto 100px auto;
   text-align: center;
 }
-.Experience-list{
+
+.Experience-list {
   text-align: left;
 }
 
@@ -108,7 +114,8 @@ a:hover {
 .copyright {
   color: #EAF6F6;
 }
-.middle-container-degree{
+
+.middle-container-degree {
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -141,22 +148,27 @@ a:hover {
   float: right;
   margin-left: 30px;
 }
-#testimonials{
+
+#testimonials {
   text-align: center;
 }
-.carousel-item{
+
+.carousel-item {
   padding: 7% 15%;
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
   width: 5%;
   background-color: #66BFBF;
   color: black;
 }
-.carousel-control-next{
+
+.carousel-control-next {
   width: 5%;
   background-color: #66BFBF;
 }
-.Project-list{
+
+.Project-list {
   text-align: left;
 }
 
