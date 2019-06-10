@@ -76,6 +76,10 @@ a:hover {
 .prog {
   text-decoration: underline;
 }
+.other-skill{
+  padding: 0 30%;
+  text-align: left;
+}
 
 .intro {
   width: 30%;
@@ -87,6 +91,14 @@ a:hover {
   margin: 100px auto 100px auto;
   text-align: left;
 }
+.Experience-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+.Experience-list{
+  text-align: left;
+}
 
 .contact-message {
   width: 40%;
@@ -95,6 +107,10 @@ a:hover {
 
 .copyright {
   color: #EAF6F6;
+}
+.middle-container-degree{
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 /*image*/
@@ -124,6 +140,24 @@ a:hover {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+#testimonials{
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.carousel-control-prev{
+  width: 5%;
+  background-color: #66BFBF;
+  color: black;
+}
+.carousel-control-next{
+  width: 5%;
+  background-color: #66BFBF;
+}
+.Project-list{
+  text-align: left;
 }
 
 .btn {

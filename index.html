@@ -4,9 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>Enze Zheng</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,41 +22,149 @@
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
     <img src="images/mountain.png" alt="mountain-img">
   </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="self-image" src="images/Enze's picture.jpg" alt="Enze's picture">
-      <h2>Hello.</h2>
-      <p class="intro"><em>Recent Graduate from <a href="https://uci.edu/">University of California - Irvine</a></em></p>
+  <div class="profile">
+    <img class="self-image" src="images/Enze's picture.jpg" alt="Enze's picture">
+    <h2>Hello.</h2>
+    <p class="intro"><em>Recent Graduate from <a href="https://uci.edu/">University of California - Irvine</a></em></p>
 
+    <br>
+    <p class="middle-container-degree">Master of Science: Computer Engineering </p>
+    <p>September 2017 - April 2019</p>
+    <p>GPA: 3.5</p>
+    <br>
+    <p class="middle-container-degree">Bachelor of Science: Electrical Engineering and Computer Engineering</p>
+    <p>June 2012- June 2017</p>
+    <p>GPA: 3.3</p>
+    <br>
+    <p><b>Programing Langugage:</b>Java, C#, and Python</p>
+    <p class="other-skill">
+      <b>Other:</b> JavaScript, VHDL, Bootstrap, Verilog, HTML,SQL Server, BAT file, AWS, MQTT, Tensorflow, IOT, OrCAD, Microwind, Mathematica, MATLAB, Cadence, PADS, Linux, MySQL, CUDA, Parallel Programming, Arduino, Raspberry Pi3, and Android Studio.
+    </p>
+    <hr>
+  </div>
+  <div class="Experience">
+    <h2>My Experience.</h2>
+    <div class="Experience-row">
+      <h3>Software Engineering Intern, RxSafe, LLC – Vista, CA</h3>
+      <p>July 2018-Sep 2018</p>
+      <ul class="Experience-list">
+        <li>
+          <p>Implemented server new control states for the packing machine to meet customer requirements.</p>
+        </li>
+        <li>
+          <p>Wrote and ran a background Batch file to ensure SQL Server and AWS Database synchronization.</p>
+        </li>
+        <li>
+          <p>Designed several new system reports using C#, Microsoft ReportViewer, and SQL Server.</p>
+        </li>
+        <li>
+          <p>Wrote C# programs to retrieve data from AWS and generated reports using Telerik.</p>
+        </li>
+      </ul>
+
+    </div>
+    <div class="Experience-row">
+      <h3>Wafer Fab Associate Engineer Intern, Emcore Corporation - Alhambra, CA</h3>
+      <p>Jun 2015 – Jan 2016 and Jun 2016 – Apr 2018</p>
+      <ul class="Experience-list">
+        <li>
+          <p>Project team leader and liaison</p>
+        </li>
+        <li>
+          <p>Built an automatic burn-in test station.</p>
+        </li>
+        <li>
+          <p>Designed printed circuit board using PADs and obtained hands-on circuit board testing and soldering experience.</p>
+        </li>
+        <li>
+          <p>Wrote C# and Python programs for multiple projects.</p>
+        </li>
+        <li>
+          <p>Assisted laboratory technician with computer and equipment issues.</p>
+        </li>
+      </ul>
       <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="fire-image" src="https://media.giphy.com/media/WQm0hx8lEEwWMIezeN/giphy.gif" alt="">
-          <h3>Lorem & Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+    </div>
+    <div id="testimonials">
+      <h2>Project</h2>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3>Auto Light Control System</h3>
+            <ul class="Project-list">
+              <li>
+                <p>This control system is used to automatically controls lights according to user behavior and it includes several light units, an MQTT server, and an AWS server. </p>
+              </li>
+              <li>
+                <p>The light units are controlled remotely, via cellphone, and each light unit is capable of obtaining the user’s position by RSSI.</p>
+              </li>
+              <li>
+                <p>All light units are connected to a local server, using MQTT message broker, and the local server controls the light, based on AWS data and feedback from the light units. </p>
+              </li>
+              <li>
+                <p>A camera is connected to the controlling server, which processes the image input using TensorFlow to recognize user’s behavior.</p>
+              </li>
+              <li>
+                <p>The control server learns the light pattern associated with the user’s behavior and adjusts the light based on the data.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="carousel-item">
+            <h3>Warehouse Application</h3>
+            <ul class="Project-list">
+              <li>
+                <p>This C# application can help users find the shortest path to pick up items in a warehouse.</p>
+              </li>
+              <li>
+                <p>The program loads map data in any excel format and displays a simply map in GUI.</p>
+              </li>
+              <li>
+                <p>Users can either type in the item they want or load the item list in text format. The program searches the path and displays the order for items to be pick by following the path.</p>
+              </li>
+              <li>
+                <p>There are two algorithms to find the path: one is nearest neighbor, and the other is Branch and Bound. When the program starts looking for the path, it concurrently runs both algorithms and returns the result when one of the algorithms is complete.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="carousel-item">
+            <h3>Life Test System (Emcore Corporation)</h3>
+            <ul class="Project-list">
+              <li>
+                <p>This test station is a burn-in station used to estimates the duration time of the laser product under extreme condition.</p>
+              </li>
+              <li>
+                <p>Program operate under three different temperature condition: high temperature, room temperature, and low temperature using a controllable thermoelectric module and a thermistor to accelerate failure period.</p>
+              </li>
+              <li>
+                <p>Combine several self-design circuit boards to detect laser intensity and amplify the signal</p>
+              </li>
+              <li>
+                <p>Writing a C# program collaborating with National Instrument devices to achieve control flow and data collection from multiple devices in the test station.</p>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="skill-row">
-          <img class="snow-image" src="https://media.giphy.com/media/3ohzdCDwqu1H8YVZMQ/giphy.gif" alt="">
-          <h3>Lorem Ipsum Dolor</h3>
-          <p class="text2">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
       </div>
     </div>
 
 
+    <hr>
+    <div class="contact-me">
+      <a class="btn" href="mailto:zhengenze1994@hotmail.com">CONTACT ME</a>
+    </div>
+
+
     <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p class="copyright">© 2018 Name Surname.</p>
+      <a class="footer-link" href="https://www.linkedin.com/in/zheng-enze-29706aa6/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/yukinosnow">Github</a>
+      <a class="footer-link" href="https://yukinosnow.github.io/CSS-MySite/">Website</a>
+      <p class="copyright">© 2019 Enze Zheng.</p>
     </div>
 
 </body>
